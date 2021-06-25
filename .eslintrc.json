@@ -1,4 +1,5 @@
 {
+  
   "env": {
     "browser": true,
     "es6": true
@@ -30,6 +31,8 @@
   ],
   "rules": {
     "camelcase": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["off"],
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
